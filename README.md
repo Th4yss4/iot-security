@@ -29,7 +29,7 @@ Um sistema de segurança pessoal baseado em IoT que permite acionar rapidamente 
 
 - IoT (Internet das Coisas)
 - Geolocalização (GPS)
-- APIs de mensageria (SMS, WhatsApp, Telegram)
+- APIs de mensageria (SMS, WhatsApp e/ou Telegram)
 - Automação de iluminação inteligente
 - Aplicativo Mobile (Android/iOS) ou Web
 
@@ -38,7 +38,7 @@ Um sistema de segurança pessoal baseado em IoT que permite acionar rapidamente 
 1. O usuário aciona o botão de emergência no app.
 2. O sistema envia a localização em tempo real para a central de monitoramento.
 3. Notificações são enviadas imediatamente para contatos de emergência.
-4. O sistema de iluminação inteligente é ativado para aumentar a segurança no local.
+4. O sistema mostra os locais menos ilumindos, para serem evitados durante a noite.
 
 ## Contribuição
 
