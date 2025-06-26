@@ -4,6 +4,8 @@ Um sistema de segurança pessoal baseado em IoT que permite acionar rapidamente 
 
 ## Funcionalidades Principais
 
+![Usuário (APP)](https://github.com/user-attachments/assets/c448b35b-93d1-45ad-b858-f2ec3283bf6c)
+
 - **Aplicativo Mobile ou Web**
     - Botão de emergência virtual.
     - Registro de características do incidente.
