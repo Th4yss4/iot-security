@@ -2,7 +2,6 @@
 
 Um sistema de segurança pessoal baseado em IoT que permite acionar rapidamente uma emergência por meio de um app, integrando localização em tempo real, comunicação instantânea e automação de iluminação para aumentar a segurança do usuário.
 
-![Usuário (APP) (4)](https://github.com/user-attachments/assets/85f950cd-75d8-41fc-adb6-8a2ad44f9e9e)
 
 ## Funcionalidades Principais
 
@@ -31,7 +30,7 @@ Um sistema de segurança pessoal baseado em IoT que permite acionar rapidamente 
 
 O sistema é estruturado em três camadas principais: **Entrada**, **Processamento (IoT/Backend)** e **Ações (Iluminação e Mensageria)**. Cada camada se comunica entre si para garantir uma resposta rápida e eficiente em situações de emergência.
 
-![Usuário (APP) (2)](https://github.com/user-attachments/assets/16bba70f-045d-403f-9682-9e02e252e001)
+![Usuário (APP) (4)](https://github.com/user-attachments/assets/85f950cd-75d8-41fc-adb6-8a2ad44f9e9e)
 
 ---
 
