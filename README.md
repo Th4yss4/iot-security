@@ -2,8 +2,7 @@
 
 Um sistema de segurança pessoal baseado em IoT que permite acionar rapidamente uma emergência por meio de um app, integrando localização em tempo real, comunicação instantânea e automação de iluminação para aumentar a segurança do usuário.
 
-
-
+![Usuário (APP) (4)](https://github.com/user-attachments/assets/85f950cd-75d8-41fc-adb6-8a2ad44f9e9e)
 
 ## Funcionalidades Principais
 
