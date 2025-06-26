@@ -3,6 +3,31 @@
 Um sistema de segurança pessoal baseado em IoT que permite acionar rapidamente uma emergência por meio de um app, integrando localização em tempo real, comunicação instantânea e automação de iluminação para aumentar a segurança do usuário.
 
 
+
+
+## Funcionalidades Principais
+
+- **Aplicativo Mobile ou Web**
+    - Botão de emergência virtual.
+    - Registro de características do incidente.
+    - Exibição de locais menos iluminados para evitar durante a noite.
+
+- **Geolocalização**
+    - Envio da localização em tempo real ao ser acionado.
+
+- **Central de Monitoramento**
+    - Recebe alertas e coordena ações.
+    - Pode ser uma central profissional ou uma rede de contatos pré-definidos (amigos/familiares).
+
+- **Notificações por Mensageria**
+    - Envio imediato de alertas via SMS, WhatsApp, Telegram ou outros canais para contatos de emergência.
+
+- **Integração com Iluminação Inteligente**
+    - Aumenta a visibilidade em ambientes menos iluminados.
+    - **Modo Presença:**
+        - Ausência de movimento: luz baixa ou desligada.
+        - Presença detectada: luz alta.
+
 ## Fluxo de Dados do Sistema
 
 O sistema é estruturado em três camadas principais: **Entrada**, **Processamento (IoT/Backend)** e **Ações (Iluminação e Mensageria)**. Cada camada se comunica entre si para garantir uma resposta rápida e eficiente em situações de emergência.
@@ -39,29 +64,6 @@ O sistema é estruturado em três camadas principais: **Entrada**, **Processamen
 | **Mensagem de Alerta**     | Envio automático de notificações via Telegram, WhatsApp ou SMS para contatos cadastrados, contendo a localização e o tipo de alerta. |
 
 ---
-
-## Funcionalidades Principais
-
-- **Aplicativo Mobile ou Web**
-    - Botão de emergência virtual.
-    - Registro de características do incidente.
-    - Exibição de locais menos iluminados para evitar durante a noite.
-
-- **Geolocalização**
-    - Envio da localização em tempo real ao ser acionado.
-
-- **Central de Monitoramento**
-    - Recebe alertas e coordena ações.
-    - Pode ser uma central profissional ou uma rede de contatos pré-definidos (amigos/familiares).
-
-- **Notificações por Mensageria**
-    - Envio imediato de alertas via SMS, WhatsApp, Telegram ou outros canais para contatos de emergência.
-
-- **Integração com Iluminação Inteligente**
-    - Aumenta a visibilidade em ambientes menos iluminados.
-    - **Modo Presença:**
-        - Ausência de movimento: luz baixa ou desligada.
-        - Presença detectada: luz alta.
 
 ## Tecnologias Utilizadas
 
