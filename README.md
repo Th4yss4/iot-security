@@ -32,7 +32,7 @@ Um sistema de segurança pessoal baseado em IoT que permite acionar rapidamente 
 
 O sistema é estruturado em três camadas principais: **Entrada**, **Processamento (IoT/Backend)** e **Ações (Iluminação e Mensageria)**. Cada camada se comunica entre si para garantir uma resposta rápida e eficiente em situações de emergência.
 
-![Usuário (APP)](https://github.com/user-attachments/assets/c448b35b-93d1-45ad-b858-f2ec3283bf6c)
+![Usuário (APP) (1)](https://github.com/user-attachments/assets/08487bdd-720c-4d9b-8924-8e0975fc52c9)
 
 ---
 
