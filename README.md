@@ -2,9 +2,45 @@
 
 Um sistema de segurança pessoal baseado em IoT que permite acionar rapidamente uma emergência por meio de um app, integrando localização em tempo real, comunicação instantânea e automação de iluminação para aumentar a segurança do usuário.
 
-## Funcionalidades Principais
+
+## Fluxo de Dados do Sistema
+
+O sistema é estruturado em três camadas principais: **Entrada**, **Processamento (IoT/Backend)** e **Ações (Iluminação e Mensageria)**. Cada camada se comunica entre si para garantir uma resposta rápida e eficiente em situações de emergência.
 
 ![Usuário (APP)](https://github.com/user-attachments/assets/c448b35b-93d1-45ad-b858-f2ec3283bf6c)
+
+---
+
+### 1º Andar — Entrada e Processamento Inicial
+
+| Componente         | Descrição |
+|--------------------|-----------|
+| **Usuário (APP)**  | Interface principal para o acionamento do botão de emergência, envio de localização e visualização de locais perigosos. Inicia o fluxo de dados com um alerta. |
+| **Localização + Alerta** | Dados de GPS e status de emergência enviados ao backend. |
+| **API Flask**      | Backend responsável por receber e processar alertas, comunicar-se com o banco de dados e coordenar os módulos de notificação e hardware. |
+
+---
+
+### 2º Andar — Camada de Dispositivos e Sensores
+
+| Componente       | Descrição |
+|------------------|-----------|
+| **ESP32**        | Microcontrolador responsável por controlar os sensores e a iluminação inteligente. Pode comunicar-se com o backend. |
+| **Sensores (Proximidade e Iluminação)** | Captam movimento (sensor PIR) e luminosidade (LDR), fornecendo dados ao ESP32 para ativar a iluminação conforme necessidade. |
+| **Banco de Dados** | Armazena informações como localização do usuário, histórico de alertas, logs de sensores e registros de mensagens enviadas. |
+
+---
+
+### 3º Andar — Camada de Ação e Saída
+
+| Componente                 | Descrição |
+|----------------------------|-----------|
+| **Iluminação Inteligente** | LEDs controlados via ESP32 que se adaptam ao movimento e luminosidade do ambiente, aumentando a segurança em locais escuros. |
+| **Mensagem de Alerta**     | Envio automático de notificações via Telegram, WhatsApp ou SMS para contatos cadastrados, contendo a localização e o tipo de alerta. |
+
+---
+
+## Funcionalidades Principais
 
 - **Aplicativo Mobile ou Web**
     - Botão de emergência virtual.
