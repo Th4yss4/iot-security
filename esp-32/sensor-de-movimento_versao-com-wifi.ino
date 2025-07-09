@@ -2,12 +2,12 @@
 #include <HTTPClient.h>
 
 // Credenciais WiFi
-const char* ssid = "UFPI";
-const char* password = "";
+const char* ssid = "INSIRA-NOME-DA-SUA-REDE";
+const char* password = "INSIRA-SENHA-DA-SUA-REDE";
 
 // Token e Chat ID do Telegram
-String botToken = "8105350995:AAFseuFyFmCcfIaQZZpAMas1fMX8WxHD-gw";
-String chatID = "7793962721";
+String botToken = "iNSIRA-TOKEN-AQUI";
+String chatID = "INSIRA-CHAT-ID-AQUI";
 
 // Pinos dos LEDs
 const int ledRed = 23;     // LED vermelho
