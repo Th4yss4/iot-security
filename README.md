@@ -61,8 +61,11 @@ Um sistema de segurança pessoal baseado em **IoT** que permite acionar emergên
 ## 🚀 Como Funciona
 
 1️⃣ O usuário aciona o **botão de emergência** no app.
+
 2️⃣ O sistema envia a **localização em tempo real** para a central de monitoramento.
+
 3️⃣ **Notificações instantâneas** são enviadas aos contatos de emergência via WhatsApp e Telegram.
+
 4️⃣ O sistema de **iluminação inteligente** é ativado para aumentar a visibilidade no local.
 
 ---
