@@ -114,7 +114,7 @@ graph TD;
     Telegram -->|Envia localização| Backend(Flask Backend)
     Backend -->|Alerta| WhatsApp(Twilio WhatsApp)
     Backend -->|Alerta| Telegram(Telegram Bot)
-    Backend -->|Ativa luz| ESP32(Sensor de Movimento)
+    ESP32 -->|Sensor ativo| Telegram(Telegram Bot)
 ```
 
 ---
