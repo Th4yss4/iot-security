@@ -58,7 +58,3 @@ Este repositório contém duas versões de código para controle de um sensor de
 * Sensor de movimento PIR
 * 3 LEDs (vermelho, amarelo e verde)
 * Resistores apropriados para os LEDs
-
-## 📄 Licença
-
-Este projeto está sob a licença MIT. Consulte o arquivo LICENSE para mais detalhes.
