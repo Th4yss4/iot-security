@@ -49,6 +49,7 @@ Um sistema de segurança pessoal baseado em **IoT** que permite acionar emergên
 📁 esp-32
 ├── sensor-de-movimento.ino              # Código para ESP32 (sensor sem WiFi)
 ├── sensor-de-movimento_versao-com-wifi.ino  # Código para ESP32 (com WiFi)
+
 📁 bot
 ├── app.py                               # Backend Flask com integração Telegram/WhatsApp
 ├── bot.py                               # Bot Telegram para captura de chat_id
