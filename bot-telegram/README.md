@@ -15,7 +15,7 @@ Este projeto consiste em dois bots Telegram integrados a funcionalidades de segu
 
 ---
 
-## 📂 Estrutura do Projeto
+## 📂 Estrutura
 
 ```
 .
