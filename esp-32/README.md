@@ -1,6 +1,9 @@
 # Sensor de Movimento - README
 
-Este repositório contém duas versões de código para controle de um sensor de movimento (PIR) com LEDs indicadores e integração opcional com Wi-Fi e Telegram.
+Este repositório contém duas versões de código para controle de um sensor de movimento (PIR) com LEDs indicadores e integração opcional com Wi-Fi e Telegram
+
+![{F2BEE6EF-8B77-4FDD-B3A3-007FBC81CFEA}](https://github.com/user-attachments/assets/4d8eb95d-00f3-4ff6-86bc-effecb00dd5f)
+
 
 ## 📂 Arquivos
 
